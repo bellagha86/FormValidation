@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+.formulaire{
+display: flex;
+justify-content: center;
+flex-direction: column;
+justify-items: center;
+padding: 2% 40%;
+align-content: space-between;
+}
+.formvalidation{
+    display: flex;
+    flex-direction: column;
+}
+.forminput{
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color:white;
+    
+}
+.forminput input{
+    background-color:#2c2a3b;
+    color:white
+}
+.background{
+    height:750px;
+    width:100%;
+    background: linear-gradient(to bottom right, #5a3543, #173056);
+    background-size: cover;
+}
+.formbuttons{
+    width:100%;
+    height:40px;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color:white;
+    padding: 10px 0;
+}
+.formbuttons input{
+    background-color:#2c2a3b;
+    color:white;
+    height:100%
+}
